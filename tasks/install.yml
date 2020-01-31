@@ -1,0 +1,10 @@
+---
+- name: Installing Filebeat.
+  package:
+    name: heartbeat-elastic
+    state: present
+
+- name: Enable Heartbeat Service.
+  service:
+    name: heartbeat-elastic
+    enabled: yes

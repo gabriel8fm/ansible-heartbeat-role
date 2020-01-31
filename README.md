@@ -1,2 +1,1 @@
-# heartbeat-role
-Elastic Heartbeat role to install it with Ansible
+# Elastic Heartbeat Ansible Role
